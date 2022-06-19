@@ -1,0 +1,2 @@
+,Imagen_original,Imagen_transformada,Escenario,EscalaGrises,Normalizado,Clahe,Gabor,HOG,MSE,SSIM,HistogramaColor,LSH,SIFT,LPIPS
+0,imagenes\img1.jpg,imagenes\img4.jpg,color,0.4772301,0.45873567,0.026121164,1.2933618,0.15614331,0.0567810259885204,0.43405242067492555,0.03172760221624871,0.265625,0.07058823529411762,0.4058
