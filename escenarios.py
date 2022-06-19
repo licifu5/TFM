@@ -77,7 +77,7 @@ def aplicarModificaciones(path):
     escenarios.append(rotada)
     comprimida = comprimir(path)
     escenarios.append(comprimida)
-    igualita = igual()
+    igualita = igual(path)
     escenarios.append(igualita)
 
     #añado los path de las imagenes modificadas via externa

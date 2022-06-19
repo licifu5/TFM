@@ -5,7 +5,9 @@ import escenarios
 df = pd.read_csv("resultados.csv",delimiter=';')
 
 #obtengo las rutas de las imagenes del dataset original, solo las originales, las que no llevan _
-images=[]
+images=['dataset/acuarela.jpg','dataset/buganvilla.jpg','dataset/buho.jpg','dataset/chimenea.jpg','dataset/cojin.jpg','dataset/cuadro.jpg','dataset/figura.jpg',
+        'dataset/flor.jpg','dataset/hortensia.jpg','dataset/impresion.jpg','dataset/jarron.jpg','dataset/limon.jpg','dataset/manopla.jpg',
+        'dataset/papel.jpg','dataset/perrito.jpg','dataset/pincel.jpg']
 #para cada imagen de las originales
 for image in images:
     #obtengo las rutas de todas sus modificaciones
