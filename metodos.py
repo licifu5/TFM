@@ -342,5 +342,7 @@ def lpips_method(img_path, img_path2):
 
     d = loss_fn_vgg(image  , image2)
     tensor=str(d[0,0,0])
-    similitud=tensor[8:14]
-    return similitud
+    troceado=tensor.split('[')
+    mastroceado=troceado[1].split(']')[0]
+    if(mastroceado=='0.'): mastroceado=0
+    return mastroceado
