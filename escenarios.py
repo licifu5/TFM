@@ -5,7 +5,7 @@ import numpy as np
 #aqui se pasa una imagen a los diferentes escenarios a estudiar
 
 def obtenerEscenario(path):
-    nombre = path.split("_")
+    nombre = path.split("_")[1]
     escenario= nombre.split('.')[0]
     return escenario
 
