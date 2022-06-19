@@ -1,0 +1,1 @@
+#aqui se pasa una imagen a los diferentes escenarios a estudiar
