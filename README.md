@@ -1,7 +1,9 @@
-# TFM
-Instalación
+# TFM Evaluación de métodos de similitud por escenario
+
+## Instalación
 Con el uso de [pip] instalar las siguientes librerías para evitar errores de dependencias:
 
+```bash
 ImageHash 4.2.0
 Keras 2.4.3
 Keras-Preprocessing 1.1.2
@@ -65,3 +67,7 @@ typing-extensions 3.7.4.3
 urllib3 1.26.4
 wheel 0.36.2
 wrapt 1.12.1
+```
+
+## Licencia
+Claudia Benítez Cuadra
